@@ -1,0 +1,122 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( 135deg, #101020, #1d2945 );
+    color: white;
+}
+
+
+.contenedor {
+    width: 90%;
+    max-width: 850px;
+    padding: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+
+.descripcion {
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+
+
+.camara {
+    width: 100%;
+    max-width: 720px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 15px;
+    background: black;
+}
+
+
+#video {
+    width: 100%;
+    display: block;
+    transform: scaleX(-1);
+}
+
+
+button {
+    margin-top: 20px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 10px;
+    background: #00c878;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+    button:hover {
+        background: #00a866;
+    }
+
+
+    button:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+
+.resultado {
+    margin-top: 25px;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+
+    .resultado h2 {
+        margin-bottom: 15px;
+    }
+
+
+#emocion {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+#confianza {
+    color: #00ff99;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+#frase {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+
+#estado {
+    margin-top: 20px;
+    color: #bbbbbb;
+}
